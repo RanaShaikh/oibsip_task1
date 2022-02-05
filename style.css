@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background:linear-gradient(200deg, red ,orange, yellow);
+    
+}
+nav{
+    
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px; 
+    display: inline;  
+    font-size: larger;
+}
+nav ul li a{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-decoration: none;  
+}
+
+nav ul li:hover{  
+    font-weight:bolder;
+}
+.img1
+{
+   margin:15px 20px;
+   display: inline-block;
+
+}
+.style1
+{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    margin: 0 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.bg{
+    background-image: url('img/bg.jpg');
+    background: cover no-repeat fixed center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; 
+    position: relative;
+}
+footer
+{
+    display: flex;
+    padding-top: 20px;
+    align-content: center;
+    justify-content: center;
+    background:linear-gradient(200deg, red ,orange, yellow);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    height: 8vh;
+    color: rgb(84, 13, 13);
+    /* position: sticky; */
+}
+.container
+{
+    margin: 37px auto;
+}
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content:center; 
+    overflow:hidden;
+}
+.space
+{
+    margin: 50px 0;
+}
+.i1{
+    border-radius: 40px;
+    
+    
+}
+.inner-bannerspace{
+    padding-top: 150px;
+   
+}
+.card-items
+{
+    width: 280px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 12px;
+    border: 5px solid goldenrod;
+    border-radius: 40px;
+    background-color: rgba(238, 185, 9, 0.185); 
+    box-shadow:10px 5px 20px 0 rgb(24, 23, 23);
+    
+  
+
+}
+.card-items:hover
+{
+    
+    transform: scale(1.05);
+
+}
+.lines h3 p{
+    height: 20vh;
+   text-align: center;
+}
+
+.btn
+{
+    margin:8px 0;
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    background:linear-gradient(200deg, red ,orange, yellow);
+    border: 2px solid orange;
+    width:180px;
+}
+.btn1
+{
+    margin:8px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    color:black;
+    background:rgb(243, 207, 6);
+    border: 3px solid orange;
+    width:100px;
+}
+.btn2
+{
+    margin:8px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    color:black;
+    background:red;
+    border: 2px solid red;
+    border-radius: 50px;
+    width:100px;
+}
+.btn2:hover{
+    cursor: pointer;
+    color: white;
+    background: orange;
+}
+.btn:hover
+{
+    cursor: pointer;
+    color: orange;
+    background: white;
+    
+}
+.btn1:hover
+{
+    cursor: pointer;
+    color: orange;
+    background: white;
+    
+}
+h1
+{
+    font-family: 'The Nautigal', cursive;
+    font-size: 4em;
+    font-weight:bolder;
+   
+} 
+.f1
+{
+    font-size: 18px;
+}
+@media screen and (max-width :678px) {
+    nav
+    {
+       
+        flex-wrap:wrap;   
+        height: 150px; 
+    }
+      
+}
+@media  screen and (max-width :398px) {
+    nav ul{
+        flex-wrap: wrap;    
+    }
+    nav
+    {
+        height: 240px;
+    }
+    
+}
+
